@@ -1,0 +1,87 @@
+<resources>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="actionModeBackground">@color/colorActionPrimary</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+	<style name="recNotes">
+		<item name="android:paddingBottom">@dimen/margin</item>
+		<item name="android:clipToPadding">false</item>
+		<item name="android:scrollbars">vertical</item>
+	</style>
+
+	<style name="txtNoNotes">
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">@dimen/text_size_no_notes</item>
+		<item name="android:textColor">@color/colorHint</item>
+	</style>
+
+	<style name="cvNote">
+		<item name="android:layout_marginLeft">@dimen/margin</item>
+		<item name="android:layout_marginRight">@dimen/margin</item>
+		<item name="android:layout_marginTop">@dimen/margin</item>
+	</style>
+
+	<style name="cvNoteTitle">
+		<item name="android:maxLines">1</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:textSize">@dimen/text_size_title</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_marginBottom">@dimen/margin</item>
+	</style>
+
+	<style name="cvNoteText">
+		<item name="android:maxLines">3</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:textSize">@dimen/text_size_text</item>
+		<item name="android:layout_marginBottom">@dimen/margin</item>
+	</style>
+
+	<style name="cvNoteDate">
+		<item name="android:textColor">@color/colorDate</item>
+		<item name="android:textSize">@dimen/text_size_date</item>
+	</style>
+
+	<style name="txtTitle">
+		<item name="android:layout_marginLeft">@dimen/margin</item>
+		<item name="android:layout_marginRight">@dimen/margin</item>
+		<item name="android:layout_marginTop">@dimen/margin</item>
+		<item name="android:textSize">@dimen/text_size_title</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColorHint">@color/colorHint</item>
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+
+	<style name="txtText">
+		<item name="android:layout_margin">@dimen/margin</item>
+		<item name="android:textSize">@dimen/text_size_text</item>
+		<item name="android:textColorHint">@color/colorHint</item>
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+
+	<style name="txtDate">
+		<item name="android:layout_marginLeft">@dimen/margin</item>
+		<item name="android:layout_marginRight">@dimen/margin</item>
+		<item name="android:layout_marginTop">@dimen/margin</item>
+		<item name="android:textColor">@color/colorDate</item>
+		<item name="android:textSize">@dimen/text_size_date</item>
+	</style>
+
+</resources>

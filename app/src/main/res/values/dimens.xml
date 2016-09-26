@@ -1,0 +1,7 @@
+<resources>
+	<dimen name="margin">10dp</dimen>
+	<dimen name="text_size_date">12sp</dimen>
+	<dimen name="text_size_title">22sp</dimen>
+	<dimen name="text_size_text">18sp</dimen>
+	<dimen name="text_size_no_notes">30sp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+simple note taking app 
+---------------------
+- to add note tap "add note" in app menu, new note will be added to the top of the list
+- tap a note to edit it
+- tap and hold note to select it. once the first one is selected you can (de)select other ones by tapping them
+- to delete note in list view, drag it to the side when not in selection mode, or select any number of notes and tap "delete" in the app menu
+- to delete note in editor view tap "delete"
+- the last deletion can be undone by tapping "undo" in the bar that appears on the bottom
+- notes can be re-ordered by dragging them up and down

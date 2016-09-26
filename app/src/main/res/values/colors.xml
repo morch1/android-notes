@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#607d8b</color>
+	<color name="colorPrimaryDark">#37474f</color>
+	<color name="colorActionPrimary">#607d8b</color>
+	<color name="colorActionPrimaryDark">#37474f</color>
+	<color name="colorAccent">#00acc1</color>
+	<color name="colorBackground">#f5f5f5</color>
+	<color name="colorActionBackground">#e1f5fe</color>
+	<color name="colorActionBorder">#90caf9</color>
+	<color name="colorSavedBackground">#b9f6ca</color>
+	<color name="colorHint">#cecece</color>
+	<color name="colorDate">@android:color/secondary_text_light</color>
+	<color name="colorText">@android:color/primary_text_light</color>
+</resources>

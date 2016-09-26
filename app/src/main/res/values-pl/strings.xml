@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Notatki</string>
+
+	<string name="action_add_note">Dodaj</string>
+	<string name="action_delete_notes">Usuń</string>
+	<string name="action_save_note">Zapisz</string>
+	<string name="action_select_all">Zaznacz wszystko</string>
+	<string name="action_settings">Ustawienia</string>
+	<string name="action_undo">Cofnij</string>
+
+	<string name="dialog_discard_changes">Porzucić zmiany?</string>
+
+	<string name="hint_no_notes">Brak notatek</string>
+	<string name="hint_read_failed">(błąd wczytywania notatki)</string>
+	<string name="hint_text">Pusta notatka</string>
+	<string name="hint_title">Bez tytułu</string>
+
+	<string name="toast_add_failed">Błąd: nie można dodać notatki</string>
+	<string name="toast_note_saved">Notatka zapisana</string>
+	<string name="toast_read_failed">Błąd: nie można wczytać notatki</string>
+	<string name="toast_save_failed">Błąd: nie można zapisać notatki</string>
+
+	<plurals name="toast_delete_failed">
+		<item quantity="one">Błąd: nie można usunąć notatki</item>
+		<item quantity="few">Błąd: nie można usunąć notatek</item>
+		<item quantity="many">Błąd: nie można usunąć notatek</item>
+		<item quantity="other">Błąd: nie można usunąć notatek</item>
+	</plurals>
+	<plurals name="toast_restore_failed">
+		<item quantity="one">Błąd: nie można przywrócić notatki</item>
+		<item quantity="few">Błąd: nie można przywrócić notatek</item>
+		<item quantity="many">Błąd: nie można przywrócić notatek</item>
+		<item quantity="other">Błąd: nie można przywrócić notatek</item>
+	</plurals>
+
+	<plurals name="snackbar_notes_removed">
+		<item quantity="one">Notatka usunięta</item>
+		<item quantity="few">%d notatki usunięte</item>
+		<item quantity="many">%d notatek usuniętych</item>
+		<item quantity="other">%d notatek usuniętych</item>
+	</plurals>
+
+	<plurals name="title_notes_selected">
+		<item quantity="one">%d wybrana</item>
+		<item quantity="few">%d wybrane</item>
+		<item quantity="many">%d wybranych</item>
+		<item quantity="other">%d wybranych</item>
+	</plurals>
+</resources>
